@@ -53,28 +53,28 @@ public class Pizza {
         if(!billCreated){
         this.bill = "";
         if(this.isVeg){
-            this.bill += "Base Price Of The Pizza: 300 \n";
+            this.bill += "Base Price Of The Pizza: 300\n";
         }else
-            this.bill += "Base Price Of The Pizza: 400 \n";
+            this.bill += "Base Price Of The Pizza: 400\n";
 
         if(cheeseAlreadyAdded){
             this.price += 80;
-            this.bill += "Extra Cheese Added: 80 \n";
+            this.bill += "Extra Cheese Added: 80\n";
         }
 
         if(toppingAlreadyAdded){
             if(isVeg){
                 this.price += 70;
-                this.bill += "Extra Toppings Added: 70 \n";
+                this.bill += "Extra Toppings Added: 70\n";
             }else{
                 this.price += 120;
-                this.bill += "Extra Toppings Added: 120 \n";
+                this.bill += "Extra Toppings Added: 120\n";
             }
         }
 
         if(takeAwayAdded){
             this.price += 20;
-            this.bill += "Paperbag Added: 20 \n";
+            this.bill += "Paperbag Added: 20\n";
         }
 
         this.billCreated =true;
