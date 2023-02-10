@@ -65,10 +65,10 @@ public class Pizza {
         if(toppingAlreadyAdded){
             if(isVeg){
                 this.price += 70;
-                bill += "Extra Toppings For Veg Pizza = 70 \n";
+                bill += "Extra Toppings Added: 70 \n";
             }else{
                 this.price += 120;
-                bill += "Extra Toppings For Non-veg Pizza = 120 \n";
+                bill += "Extra Toppings Added: 120 \n";
             }
         }
 
