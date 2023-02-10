@@ -13,9 +13,9 @@ public class Pizza {
     public Pizza(Boolean isVeg){
 
         this.isVeg = isVeg;
-        cheeseAlreadyAdded = false;
+        this.cheeseAlreadyAdded = false;
         this.takeAwayAdded = false;
-        toppingAlreadyAdded = false;
+        this.toppingAlreadyAdded = false;
         this.billCreated =false;
 
         if (isVeg) {
@@ -35,17 +35,17 @@ public class Pizza {
 
     public void addExtraCheese(){
         // your code goes here
-        cheeseAlreadyAdded = true;
+        this.cheeseAlreadyAdded = true;
     }
 
     public void addExtraToppings(){
         // your code goes here
-            toppingAlreadyAdded = true;
+            this.toppingAlreadyAdded = true;
     }
 
     public void addTakeaway(){
         // your code goes here
-            takeAwayAdded = true;
+            this.takeAwayAdded = true;
     }
 
     public String getBill(){
