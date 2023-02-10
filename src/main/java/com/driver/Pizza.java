@@ -14,10 +14,7 @@ public class Pizza {
 
         this.isVeg = isVeg;
         this.bill = "";
-        this.cheeseAlreadyAdded = false;
-        this.takeAwayAdded = false;
-        this.toppingAlreadyAdded = false;
-        this.billCreated =false;
+
 
         if (isVeg) {
             this.price = 300;
