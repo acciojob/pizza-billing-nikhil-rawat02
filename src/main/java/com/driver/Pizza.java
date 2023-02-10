@@ -78,7 +78,7 @@ public class Pizza {
         }
 
         this.billCreated =true;
-            this.bill += "Total Price: " + getPrice();
+            this.bill += "Total Price: " + getPrice() + "\n" ;
         return this.bill;
         }
         return "";
