@@ -1,7 +1,6 @@
 package com.driver;
 
 public class Pizza {
-
     private int price;
     private Boolean isVeg;
     private String bill;
